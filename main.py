@@ -2,6 +2,8 @@ from random import choice
 from art import logo
 from art import vs
 from game_data import data
+
+
 # from replit import clear
 
 
@@ -13,14 +15,12 @@ def print_subject_info(selected_subject, letter):
 
 game = "in-progress"
 
-
 while game == "in-progress":
     # clear()
 
     score = 0
     subject_a = choice(data)
     round = "in-progress"
-
 
     while round == "in-progress":
         # clear()
